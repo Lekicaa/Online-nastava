@@ -1,0 +1,44 @@
+@media screen and (min-width:600px) {
+table{empty-cells: show;border-collapse: collapse;}
+td{
+    border-bottom: solid 1px;
+     border-top: solid 1px;
+      width:20px;
+      height:50px;
+    font-family:monospace;}
+tr:first-child > td { border: none;width: fit-content; height: fit-content;}
+th{
+    text-align:right;
+    background-color: white;
+    padding-right :10px;
+    font-family:monospace;
+    border-top:none;
+    border-bottom: none; 
+    border-right: solid 1px;
+
+  }
+#brojevi{
+            text-align:right;
+            border:none;
+            background-color: white;
+        }
+#Ponedeljak,#Utorak,#Srijeda,#Cetvrtak,#Petak {
+    background-color: #e6e6e6;}
+#predmet{background-color:#dee6ef;}
+.sd{border-right: solid 1px;}
+.sl{border-left: solid 1px;}
+.id,#id{border-right: dashed 1px;}
+.il{border-left: dashed 1px;}
+}
+
+@media only screen and (max-width:600px)
+{
+    table{empty-cells: hide; border-collapse: collapse;}
+    th,td{display: table-row;}
+    #brojevi{display: none;}
+    td{
+        background-color: #dee6ef;
+        border:solid 1px;
+      }
+
+}
