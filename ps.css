@@ -1,0 +1,14 @@
+table, tr, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+  td{text-align: center;}
+
+  tr:hover {
+    border-top: solid 2px;
+    border-bottom : solid 2px;
+    border-left: solid 2px;
+    border-right: solid 2px;
+  }
+  tr,td{width: 50%;}

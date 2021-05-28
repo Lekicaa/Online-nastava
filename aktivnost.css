@@ -1,0 +1,49 @@
+
+#v{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #baccdf;
+}
+#prvi{ width: 180px;margin-top: 30px;}
+#drugi{border-radius: 10%; height: 210px; width: 180px;}
+#treci{width: 200px;margin-top: 30px;}
+#prvi,#drugi,#treci{border-color: #4473a5;margin-bottom: 10px;}
+#prvi,#treci{border-radius: 20%;height: 180px;}
+    
+fieldset {
+            
+            text-align:center;
+            text-decoration: #4473a5;
+          }
+
+legend{color:#4473a5;}
+
+
+p{color: #4473a5;}
+h5{color: #4473a5;}
+
+@media only screen and (max-width:600px)
+{       
+   #v{display: flex;
+        flex-wrap : wrap !important;}
+        #prvi{
+            display: none;
+            
+                }
+
+        #drugi{
+           width: 50%;
+           display: block;
+         
+           
+       }
+
+        #treci{
+           width: 50%;
+        
+           display: block;
+         }
+
+}
